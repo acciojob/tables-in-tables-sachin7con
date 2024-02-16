@@ -1,2 +1,11 @@
 
 /* Your CSS Code here. */
+table *{
+	border: 1px solid black;
+	position:relative;
+}
+
+tr>th{
+	column-span:3;
+	width:100%;
+}
